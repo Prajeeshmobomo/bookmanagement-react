@@ -1,0 +1,42 @@
+.book-list {
+  h3 {
+    width: 100%;
+  }
+  .content p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .row {
+    border: 1px solid #dddddd;
+    margin: 10px;
+  }
+}
+.book-form {
+  padding: 25px;
+  border: 1px solid #dddddd;
+}
+.selected-covers {
+  padding: 0;
+  li {
+      list-style: none;
+      float: left;
+      margin-right: 10px;
+      width: 150px;
+  }
+}
+
+.book-details {
+  img {
+    width: 150px;
+    margin-right: 25px;
+  }
+  .label {
+    width: 200px;
+    float: left;
+  }
+  .fields {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,57 @@
+/*
+** Alert
+*/
+
+.alert {
+	border: none;
+	border-radius: 0;
+	font-size: 14px;
+	padding: 12px;
+	line-height: 1.2;
+    .close {
+        padding: 5px 10px;
+        font-weight: 300;
+    }
+}
+
+.alert {
+    .message {
+        margin-bottom: 0;
+    }
+    .message:before {
+        font-family: FontAwesome;
+        margin-right: 8px;
+    }
+}
+
+.alert-success {
+    background-color: #def0d8;
+    color: #658766;
+    .message:before {
+        content: "\f05d";
+    }
+}
+
+.alert-info {
+    background-color: #e0ebf9;
+    color: #327ad5;
+    .message:before {
+        content: "\f05a";
+    }
+}
+
+.alert-warning {
+    background-color: #f9e491;
+    color: #c29d0b;
+    .message:before {
+        content: "\f071";
+    }
+}
+
+.alert-danger {
+    background-color: rgb(248, 215, 218);
+    color: rgb(114, 28, 36);
+    .message:before {
+        content: "\f057";
+    }
+}
